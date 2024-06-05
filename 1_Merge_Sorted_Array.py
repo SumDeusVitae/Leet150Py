@@ -15,7 +15,9 @@ class Solution:
 
         """
         if n==0 : return
-        l,r,s = m-1, n-1, m+n-1
+        l: int = m-1
+        r: int = n-1
+        s: int = m+n-1
         while r >= 0:
             if l >= 0 and nums1[l] > nums2[r]:
                 nums1[s] = nums1[l]
