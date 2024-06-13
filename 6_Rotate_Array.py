@@ -7,5 +7,4 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """ 
-        for i in range(k):
-            nums.insert(0,nums.pop(-1))
+        for i in range(k): nums.insert(0,nums.pop(-1))
